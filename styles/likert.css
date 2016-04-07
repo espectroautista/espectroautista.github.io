@@ -1,0 +1,29 @@
+@charset "UTF-8";
+.hiddenStructure{display:block;background:transparent;background-image:none;border:none;height:0.1em;overflow:hidden;padding:0;margin:-0.1em 0 0 -0.1em;width:1px;}
+div#TestText{}form#Test{margin:0;padding:0;line-height:normal;}
+form#Test table{width:100%;}
+table#TestQuestions{border:none;margin:1px 0 1px 0;}
+table#TestQuestions th,table#TestQuestions td{padding:2px;border:2px solid #F8F8FF;}
+div#TestButtons{background-color:#C0C0C0;margin-bottom:2px;padding:4px 0;text-align:center;}
+div#TestButtons p{margin:0 3em 1ex 3em;font:bold 80%/1 "Trebuchet MS",sans-serif;text-align:center;}
+div#TestButtons input{margin:0 10px;width:7em;font:bold 90% Verdana,sans-serif;}
+div#TestTotal{display:none;margin:2px 0;border:1px solid #000000;color:#000000;background-color:#E6E6FA;}
+div#TestTotal td{padding:0;border:none;}
+div#TestTotal p{margin:4px;font-family:"Trebuchet MS",sans-serif;font-weight:bold;text-align:center;text-align:left;}
+td.TestScale{text-align:right;}
+address#TestFooter{margin-top:2px;font-style:normal;font-weight:normal;font-size:85%;text-align:center;}
+th.Range{width:6em;}
+.Arrow{outline-style:none;font-family:Arial,"DejaVu Sans","Droid Sans Fallback",OpenSymbol,sans-serif;color:#191970 !important;text-decoration:none !important;}
+table#TestQuestions{background-color:transparent;}
+table#TestQuestions td.NavigationCell{padding:0;vertical-align:bottom;}
+div.NavigationArrows{margin:4px 0 4px 0;width:6em;border:1px solid #191970;font-family:Arial,"DejaVu Sans","Droid Sans Fallback",OpenSymbol,sans-serif;text-align:center;}
+span.DisabledArrow{color:#C0C0C0;font-family:Arial,"DejaVu Sans","Droid Sans Fallback",OpenSymbol,sans-serif;text-decoration:none;}
+td.OddQuestionRadio,td.EvenQuestionRadio{vertical-align:middle;}
+td.OddQuestionText,td.EvenQuestionText{vertical-align:top;}
+td.OddQuestionNumber,td.OddQuestionText,td.OddQuestionRadio{background-color:#DCDCDC;}
+td.EvenQuestionNumber,td.EvenQuestionText,td.EvenQuestionRadio{background-color:#F5F5DC;}
+td.OddQuestionNumber,td.EvenQuestionNumber{width:4em;font-weight:bold;font-size:90%;text-align:right;vertical-align:middle;}
+td.OddQuestionText,td.EvenQuestionText{text-align:left;}
+td.OddQuestionRadio,td.EvenQuestionRadio{text-align:center;}
+th.OptionLabel{background-color:#C0C0C0;text-align:center;font-weight:bold;font-size:80%;}
+th.AAASection{background-color:#C0C0C0;font-weight:bold;text-align:center;}

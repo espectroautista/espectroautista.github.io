@@ -1,0 +1,14 @@
+@charset "UTF-8";
+.hiddenStructure{display:block;background:transparent;background-image:none;border:none;height:0.1em;overflow:hidden;padding:0;margin:-0.1em 0 0 -0.1em;width:1px;}
+div.KeywordList{padding-left:2.5em;}
+div.KeywordItem{padding:0.5em 0;}
+div.KeywordBibRef{float:left;display:list-item;width:66%;list-style-type:disc;}
+div.KeywordKeywords{float:right;margin-left:2%;width:31%;font:80% "Trebuchet MS",sans-serif;}
+a.EvenKeyword{text-decoration:none;margin-right:1em;}
+a.EvenKeyword,a.EvenKeyword:link,a.EvenKeyword:visited{color:#2E8B57;background-color:inherit;}
+a.EvenKeyword:hover{text-decoration:underline;}
+a.OddKeyword{text-decoration:none;margin-right:1em;}
+a.OddKeyword,a.OddKeyword:link,a.OddKeyword:visited{color:#4682B4;background-color:inherit;}
+a.OddKeyword:hover{text-decoration:underline;}
+span.EvenKeyword{margin-right:1em;color:#2E8B57;}
+span.OddKeyword{margin-right:1em;color:#4682B4;}

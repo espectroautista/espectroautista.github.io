@@ -1,0 +1,26 @@
+@charset "UTF-8";
+.hiddenStructure{display:block;background:transparent;background-image:none;border:none;height:0.1em;overflow:hidden;padding:0;margin:-0.1em 0 0 -0.1em;width:1px;}
+html,body,div,span,object,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{background:transparent;border:0;font-size:100%;margin:0;outline:0;padding:0;vertical-align:baseline;}
+body{line-height:normal;}ol{list-style:decimal;}
+ul{list-style:disc;}
+blockquote{quotes:none;}
+blockquote:before,blockquote:after{content:normal;}
+ins{text-decoration:underline;}
+del{text-decoration:line-through;}
+table{border-collapse:collapse;border-spacing:0;}
+.clearfix:after{display:block;content:" ";clear:both;height:0;font-size:0;visibility:hidden;}
+.clearfix{display:inline-block;}* html .clearfix{height:1%;}
+.clearfix{display:block;}
+div#Header{display:none;}
+div#Footer{display:none;}
+div#Sidebar{display:none;}
+ul#TopMenu{display:none;}
+span.External{display:inline !important;font:90% "Courier New",monospace;}
+div#TestButtons{display:none;}
+h2.IndexLabel>a{display:none;}
+div.NavigationArrows{display:none;}
+div#Content{font:12pt Georgia,"Bitstream Charter","Droid Serif",serif;color:#000000;background-color:#FFFFFF;}
+a,a:link,a:visited,a:hover{background-color:inherit !important;color:inherit !important;text-decoration:none !important;}
+abbr{border-bottom:none !important;}
+a[href^="http://"]{border-bottom:1px dotted #808080;}
+span.CurrentLetter{color:inherit !important;}

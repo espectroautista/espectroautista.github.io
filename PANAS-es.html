@@ -1,0 +1,712 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" id="PANAS" xml:lang="es" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>EspectroAutista.Info – Lista de Emociones Positivas y Negativas</title>
+<meta name="author" content="Kleine Professoren"/>
+<link rel="author" href="mailto:webmaster@espectroautista.info"/>
+<meta name="keywords" content="emociones, experiencia emocional"/>
+<meta name="description" content="Versión interactiva de la Lista de Emociones Positivas y Negativas (PANAS)"/>
+<link rel="shortcut icon" href="favicon.ico"/>
+<link rel="start" href="index.html" title="Inicio"/>
+<link rel="index" href="etiquetas.html" title="Índice"/>
+<link rel="contents" href="mapa.html" title="Tabla de contenidos"/>
+<link rel="glossary" href="glosario.html" title="Glosario"/>
+<link rel="help" href="ayuda.html" title="Ayuda"/>
+<link rel="search" href="http://www.google.com/coop/cse?cx=004940659091512830446:qk8kuueav5m" title="Buscar"/>
+<link rel="up" href="experiencia.html" title="Experiencia emocional"/>
+<link rel="section" href="experiencia.html" title="Experiencia emocional"/>
+<link media="screen" rel="stylesheet" type="text/css" href="styles/screen.css" title="Screen"/>
+<link media="screen" rel="alternate stylesheet" type="text/css" href="styles/print.css" title="Printer"/>
+<link media="print" rel="stylesheet" type="text/css" href="styles/print.css"/>
+<link media="all" rel="stylesheet" type="text/css" href="styles/content.css"/>
+<link media="all" rel="stylesheet" type="text/css" href="styles/likert.css"/>
+<script type="text/javascript">if(top!=self){top.location.replace(self.location.href);}</script>
+<script type="text/javascript" src="scripts/library.js">;</script>
+<script type="text/javascript" src="scripts/test.js">;</script>
+<script type="text/javascript" src="scripts/PANAS.js">;</script>
+<script type="text/javascript">//<![CDATA[
+var test = new TestPANAS(
+'PANAS',
+20,
+{
+panasP: 'Emociones positivas',
+panasN: 'Emociones negativas',
+coeficiente: 'Total',
+pregunta: 'No ha contestado la pregunta número ',
+preguntaX: 'No ha contestado correctamente la pregunta número ',
+ocultar: 'Ocultar descripción',
+mostrar: 'Mostrar descripción',
+borrar: '¿Quiere realmente borrar las respuestas?'
+}
+);
+//]]></script>
+<script type="text/javascript">//<![CDATA[
+if (online()) {
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-8673551-2']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script');
+ga.type = 'text/javascript';
+ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(ga, s);
+})();
+}
+//]]></script>
+</head>
+<body>
+<div id="Container">
+<div id="Header">
+<a href="index.html" id="Logo">
+<img alt="EspectroAutista.Info" src="images/logo-espectro-autista.png"/>
+</a>
+<div id="Title">EspectroAutista.Info</div>
+<form id="Search" action="http://www.google.com/cse">
+<ul>
+<li>
+<a class="Search ayuda" rel="nofollow" href="ayuda.html">ayuda</a>
+</li>
+<li>
+<a class="Search etiquetas" rel="nofollow" href="etiquetas.html">etiquetas</a>
+</li>
+<li>
+<a class="Search mapa" rel="nofollow" href="mapa.html#P131">mapa</a>
+</li>
+</ul>
+<div>
+<input type="text" id="SearchInputField" name="q" size="15"/>
+<label for="SearchInputField" class="hiddenStructure">BUSCAR</label>
+<input type="submit" name="sa" value="BUSCAR"/>
+<input type="hidden" name="cx" value="004940659091512830446:qk8kuueav5m"/>
+<input type="hidden" name="cof" value="FORID:"/>
+</div>
+</form>
+<div id="PathBar">
+<div id="Breadcrumb">
+<span id="BreadcrumbTitle">página actual:</span>
+<a class="Breadcrumb" href="index.html">Inicio</a>
+<span class="BreadcrumbArrow">›</span>
+<a class="Breadcrumb" href="tests.html">Tests interactivos</a>
+<span class="BreadcrumbArrow">›</span>
+<a class="Breadcrumb" href="emotividad.html">Emotividad</a>
+<span class="BreadcrumbArrow">›</span>
+<a class="Breadcrumb" href="experiencia.html">Experiencia emocional</a>
+<span class="BreadcrumbArrow">›</span>
+<strong class="BreadcrumbHere">Lista de Emociones Positivas y Negativas</strong>
+</div>
+</div>
+</div>
+<div id="Body" class="clearfix">
+<div id="Content">
+<div class="oi">
+<ul id="TopMenu">
+<li>
+<a class="TopMenu" href="#" onclick="return menu_print();">Versión para imprimir</a>
+</li>
+<li>
+<a class="TopMenu" href="#" id="MenuHide" onclick="return menu_description();">Ocultar descripción</a>
+</li>
+</ul>
+<h1 id="idm140710912310592">Lista de Emociones Positivas y Negativas
+(<abbr title="Positive and Negative Affect Schedule">PANAS</abbr>)
+</h1>
+<div id="TestText">
+<p>La Lista de Emociones Positivas y Negativas se presentó en la siguiente publicación:</p>
+<ul class="Paper">
+<li lang="en">Watson, D.; Clark, L. A.; Tellegen, A.: Development and validation of brief measures of positive and negative affect: The PANAS scales. <i>Journal of Personality and Social Psychology</i> 1988; 54(6):1063–1070</li>
+</ul>
+<p>
+El cuestionario ha sido traducido directamente de su fuente original.  En
+relación al género, cuando ha sido posible se ha optado por expresiones
+neutras como “alguien” o “algunas personas”. En las demás ocasiones se ha
+optado por utilizar el masculino como genérico, evitando así la fórmula
+“o/a”, “él/ella” que tanta naturalidad resta al lenguaje y suponiendo en el
+lector la elemental capacidad de interpretación.
+</p>
+<h2 id="idm140710913026512">¿Cómo interpretar el resultado?</h2>
+<p>
+La Lista de Emociones Positivas y Negativas permite valorar,
+separadamente, las experiencias emocionales positivas (10 preguntas) y
+negativas (10 preguntas) vividas recientemente. Consta de 20 preguntas en
+total, puntuables entre 1 y 5, siendo la máxima puntuación posible en cada
+categoría de 50, y la mínima de 10. 
+</p>
+<p>
+Los autores de la Lista de Emociones Positivas y Negativas no
+han establecido puntos de corte, es decir, puntuaciones que permitan
+clasificar el tipo de experiencia emocional según la puntuación obtenida.
+De lo que disponemos es del resultado obtenido al enfrentar el cuestionario
+a diversos grupos de población normal.  Es de prever que en la población
+general se encuentren casos de individuos con diversos niveles de
+experiencia emocional, siendo muy minoritarios los casos extremos, ya sea
+por máxima o mínima experiencia. 
+</p>
+<p>
+A continuación se presentan los resultados obtenidos al presentar el
+cuestionario, en cuatro experimentos distintos, a grupos distintos de
+individuos.  Entre paréntesis aparece la desviación estándar. 
+</p>
+<table style="width:90%">
+<caption>Resultados</caption>
+<tbody>
+<tr>
+<th> </th>
+<th scope="col">Emociones positivas</th>
+<th scope="col">Emociones negativas</th>
+</tr>
+<tr>
+<th scope="row" class="Leftist">Estudiantes universitarios de Dallas</th>
+<td>32,4 (± 7,3)</td>
+<td>20,4 (± 7,0)</td>
+</tr>
+<tr>
+<th scope="row" class="Leftist">Adultos del área de Dallas</th>
+<td>31,1 (± 7,5)</td>
+<td>18,0 (± 7,1)</td>
+</tr>
+<tr>
+<th scope="row" class="Leftist">Hombres adultos australianos</th>
+<td>32,6 (± 5,9)</td>
+<td>16,3 (± 4,7)</td>
+</tr>
+<tr>
+<th scope="row" class="Leftist">Mujeres adultas australianas</th>
+<td>30,7 (± 7,1)</td>
+<td>15,8 (± 4,9)</td>
+</tr>
+</tbody>
+</table>
+<p>
+La forma de interpretar la puntuación
+obtenida al completar el cuestionario consiste en compararla con la
+media obtenida en los experimentos anteriores.  Si el resultado
+obtenido es similar o superior a las medias obtenidas por esas
+poblaciones estaríamos frente a un caso de elevada experiencia
+emocional, mientras que si el resultado es similar o
+inferior, nos encontraríamos frente al caso contrario. 
+</p>
+<p>
+El cuestionario consiste en una serie de palabras que describen
+diferentes sentimientos y emociones. Lea cada palabra y seleccione la
+respuesta apropiada a cada caso, indicando en que medida se ha sentido de
+esa manera <strong>durante la última semana</strong>.
+</p>
+</div>
+<form id="Test" action="" onsubmit="return test.submit();">
+<table id="TestQuestions">
+<colgroup>
+<col style="width: 5%"/>
+<col style="width: 20%"/>
+<col style="width: 15%"/>
+<col style="width: 15%"/>
+<col style="width: 15%"/>
+<col style="width: 15%"/>
+<col style="width: 15%"/>
+</colgroup>
+<tbody>
+<tr id="B0">
+<td class="NavigationCell" colspan="2">
+<div class="NavigationArrows">
+<span class="DisabledArrow">◄ </span>
+<span class="DisabledArrow">▲</span>
+<a title="Ir al siguiente grupo de preguntas" href="#B1" class="Arrow">▼</a>
+<a title="Ir al final del cuestionario" href="#B1" class="Arrow"> ►</a>
+</div>
+</td>
+<th class="OptionLabel">Muy ligeramente o nunca</th>
+<th class="OptionLabel">Un poco</th>
+<th class="OptionLabel">Moderadamente</th>
+<th class="OptionLabel">Bastante</th>
+<th class="OptionLabel">Extremadamente</th>
+</tr>
+<tr id="P1">
+<td class="OddQuestionNumber">1</td>
+<td class="OddQuestionText">Interesado</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R1a" name="R1" value="1"/>
+</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R1b" name="R1" value="2"/>
+</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R1c" name="R1" value="3"/>
+</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R1d" name="R1" value="4"/>
+</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R1e" name="R1" value="5"/>
+</td>
+</tr>
+<tr id="P2">
+<td class="EvenQuestionNumber">2</td>
+<td class="EvenQuestionText">Afligido</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R2a" name="R2" value="1"/>
+</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R2b" name="R2" value="2"/>
+</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R2c" name="R2" value="3"/>
+</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R2d" name="R2" value="4"/>
+</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R2e" name="R2" value="5"/>
+</td>
+</tr>
+<tr id="P3">
+<td class="OddQuestionNumber">3</td>
+<td class="OddQuestionText">Excitado</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R3a" name="R3" value="1"/>
+</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R3b" name="R3" value="2"/>
+</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R3c" name="R3" value="3"/>
+</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R3d" name="R3" value="4"/>
+</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R3e" name="R3" value="5"/>
+</td>
+</tr>
+<tr id="P4">
+<td class="EvenQuestionNumber">4</td>
+<td class="EvenQuestionText">Alterado</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R4a" name="R4" value="1"/>
+</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R4b" name="R4" value="2"/>
+</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R4c" name="R4" value="3"/>
+</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R4d" name="R4" value="4"/>
+</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R4e" name="R4" value="5"/>
+</td>
+</tr>
+<tr id="P5">
+<td class="OddQuestionNumber">5</td>
+<td class="OddQuestionText">Enérgico</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R5a" name="R5" value="1"/>
+</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R5b" name="R5" value="2"/>
+</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R5c" name="R5" value="3"/>
+</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R5d" name="R5" value="4"/>
+</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R5e" name="R5" value="5"/>
+</td>
+</tr>
+<tr id="P6">
+<td class="EvenQuestionNumber">6</td>
+<td class="EvenQuestionText">Culpable</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R6a" name="R6" value="1"/>
+</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R6b" name="R6" value="2"/>
+</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R6c" name="R6" value="3"/>
+</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R6d" name="R6" value="4"/>
+</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R6e" name="R6" value="5"/>
+</td>
+</tr>
+<tr id="P7">
+<td class="OddQuestionNumber">7</td>
+<td class="OddQuestionText">Asustado</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R7a" name="R7" value="1"/>
+</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R7b" name="R7" value="2"/>
+</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R7c" name="R7" value="3"/>
+</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R7d" name="R7" value="4"/>
+</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R7e" name="R7" value="5"/>
+</td>
+</tr>
+<tr id="P8">
+<td class="EvenQuestionNumber">8</td>
+<td class="EvenQuestionText">Hostil</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R8a" name="R8" value="1"/>
+</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R8b" name="R8" value="2"/>
+</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R8c" name="R8" value="3"/>
+</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R8d" name="R8" value="4"/>
+</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R8e" name="R8" value="5"/>
+</td>
+</tr>
+<tr id="P9">
+<td class="OddQuestionNumber">9</td>
+<td class="OddQuestionText">Entusiasta</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R9a" name="R9" value="1"/>
+</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R9b" name="R9" value="2"/>
+</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R9c" name="R9" value="3"/>
+</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R9d" name="R9" value="4"/>
+</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R9e" name="R9" value="5"/>
+</td>
+</tr>
+<tr id="P10">
+<td class="EvenQuestionNumber">10</td>
+<td class="EvenQuestionText">Orgulloso</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R10a" name="R10" value="1"/>
+</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R10b" name="R10" value="2"/>
+</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R10c" name="R10" value="3"/>
+</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R10d" name="R10" value="4"/>
+</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R10e" name="R10" value="5"/>
+</td>
+</tr>
+<tr id="B1">
+<td class="NavigationCell" colspan="2">
+<div class="NavigationArrows">
+<a title="Ir al principio del cuestionario" href="#B0" class="Arrow">◄ </a>
+<a title="Ir al anterior grupo de preguntas" href="#B0" class="Arrow">▲</a>
+<span class="DisabledArrow">▼</span>
+<span class="DisabledArrow"> ►</span>
+</div>
+</td>
+<th class="OptionLabel">Muy ligeramente o nunca</th>
+<th class="OptionLabel">Un poco</th>
+<th class="OptionLabel">Moderadamente</th>
+<th class="OptionLabel">Bastante</th>
+<th class="OptionLabel">Extremadamente</th>
+</tr>
+<tr id="P11">
+<td class="OddQuestionNumber">11</td>
+<td class="OddQuestionText">Irritable</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R11a" name="R11" value="1"/>
+</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R11b" name="R11" value="2"/>
+</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R11c" name="R11" value="3"/>
+</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R11d" name="R11" value="4"/>
+</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R11e" name="R11" value="5"/>
+</td>
+</tr>
+<tr id="P12">
+<td class="EvenQuestionNumber">12</td>
+<td class="EvenQuestionText">Espabilado</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R12a" name="R12" value="1"/>
+</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R12b" name="R12" value="2"/>
+</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R12c" name="R12" value="3"/>
+</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R12d" name="R12" value="4"/>
+</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R12e" name="R12" value="5"/>
+</td>
+</tr>
+<tr id="P13">
+<td class="OddQuestionNumber">13</td>
+<td class="OddQuestionText">Avergonzado</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R13a" name="R13" value="1"/>
+</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R13b" name="R13" value="2"/>
+</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R13c" name="R13" value="3"/>
+</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R13d" name="R13" value="4"/>
+</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R13e" name="R13" value="5"/>
+</td>
+</tr>
+<tr id="P14">
+<td class="EvenQuestionNumber">14</td>
+<td class="EvenQuestionText">Inspirado</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R14a" name="R14" value="1"/>
+</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R14b" name="R14" value="2"/>
+</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R14c" name="R14" value="3"/>
+</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R14d" name="R14" value="4"/>
+</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R14e" name="R14" value="5"/>
+</td>
+</tr>
+<tr id="P15">
+<td class="OddQuestionNumber">15</td>
+<td class="OddQuestionText">Nervioso</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R15a" name="R15" value="1"/>
+</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R15b" name="R15" value="2"/>
+</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R15c" name="R15" value="3"/>
+</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R15d" name="R15" value="4"/>
+</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R15e" name="R15" value="5"/>
+</td>
+</tr>
+<tr id="P16">
+<td class="EvenQuestionNumber">16</td>
+<td class="EvenQuestionText">Resuelto</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R16a" name="R16" value="1"/>
+</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R16b" name="R16" value="2"/>
+</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R16c" name="R16" value="3"/>
+</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R16d" name="R16" value="4"/>
+</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R16e" name="R16" value="5"/>
+</td>
+</tr>
+<tr id="P17">
+<td class="OddQuestionNumber">17</td>
+<td class="OddQuestionText">Atento</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R17a" name="R17" value="1"/>
+</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R17b" name="R17" value="2"/>
+</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R17c" name="R17" value="3"/>
+</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R17d" name="R17" value="4"/>
+</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R17e" name="R17" value="5"/>
+</td>
+</tr>
+<tr id="P18">
+<td class="EvenQuestionNumber">18</td>
+<td class="EvenQuestionText">Agitado</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R18a" name="R18" value="1"/>
+</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R18b" name="R18" value="2"/>
+</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R18c" name="R18" value="3"/>
+</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R18d" name="R18" value="4"/>
+</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R18e" name="R18" value="5"/>
+</td>
+</tr>
+<tr id="P19">
+<td class="OddQuestionNumber">19</td>
+<td class="OddQuestionText">Activo</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R19a" name="R19" value="1"/>
+</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R19b" name="R19" value="2"/>
+</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R19c" name="R19" value="3"/>
+</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R19d" name="R19" value="4"/>
+</td>
+<td class="OddQuestionRadio">
+<input type="radio" id="R19e" name="R19" value="5"/>
+</td>
+</tr>
+<tr id="P20">
+<td class="EvenQuestionNumber">20</td>
+<td class="EvenQuestionText">Miedoso</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R20a" name="R20" value="1"/>
+</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R20b" name="R20" value="2"/>
+</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R20c" name="R20" value="3"/>
+</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R20d" name="R20" value="4"/>
+</td>
+<td class="EvenQuestionRadio">
+<input type="radio" id="R20e" name="R20" value="5"/>
+</td>
+</tr>
+</tbody>
+</table>
+<div id="TestButtons">
+<p>La cumplimentación de este cuestionario interactivo no reemplaza en ningún caso una evaluación formal a cargo de un profesional de la salud. Para calcular el resultado obtenido con sus respuestas presione sobre el botón «Evaluar».</p>
+<input type="submit" value="Evaluar"/>
+<input type="reset" value="Repetir" onclick="return test.reset();"/>
+<input type="button" value="Imprimir" onclick="return menu_print();"/>
+</div>
+<div id="TestTotal">
+<p>Resultado (<a id="LINK" href="#">enlace permanente</a>)</p>
+<table>
+<colgroup>
+<col style="width:50%"/>
+<col style="width:50%"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="TestScale">Emociones positivas:</td>
+<td id="OUTPUT1">[OUTPUT]</td>
+</tr>
+<tr>
+<td class="TestScale">Emociones negativas:</td>
+<td id="OUTPUT2">[OUTPUT]</td>
+</tr>
+</tbody>
+</table>
+</div>
+</form>
+<address id="TestFooter">Este cuestionario no exige para su funcionamiento de una conexión a Internet, pudiendo por tanto ser utilizado en ordenadores sin acceso a la Red. La versión más reciente está disponible en la dirección <br/><a class="url" target="_self" href="http://EspectroAutista.Info/tests/emotividad/experiencia-emocional/PANAS">http://EspectroAutista.Info/tests/emotividad/experiencia-emocional/PANAS</a></address>
+</div>
+</div>
+<div id="Sidebar">
+<div class="oi">
+<div class="Panel">
+<div class="PanelTitle">
+Aviso importante
+</div>
+<p>
+<b>La edición y mantenimiento de <strong class="title">EspectroAutista.Info</strong> se ha descontinuado.
+Para conocer todos los detalles lea <a href="F2016-04.html#E216">la última noticia</a>.</b>
+</p>
+</div>
+<div class="Panel">
+<div class="PanelTitle">navegación</div>
+<div class="TreeNav">
+<a class="TreeNav" href="experiencia.html" title="Experiencia emocional"><span class="Symbol">▲</span> subir</a>
+</div>
+<ul class="PanelMenu">
+<li class="PanelMenuCurrent">Lista de Emociones Positivas y Negativas</li>
+</ul>
+</div>
+<div class="Panel" id="TagLinks">
+<div class="PanelTitle">etiquetas</div>
+<div class="TreeNav">
+<a href="etiquetas.html" class="TreeNav" rel="nofollow"><span>» </span>más etiquetas…</a>
+</div>
+<ul id="PanelTags">
+<li><a href="etiquetas_E.html#EMOCIONES" class="EvenTag" rel="nofollow">emociones</a> (13) </li>
+<li><a href="etiquetas_E.html#EXPERIENCIAEMOCIONAL" class="OddTag" rel="nofollow">experiencia emocional</a> (1) </li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="Footer">
+<div class="oi clearfix">
+<ul id="FooterLinks">
+<li>
+<a target="_blank" class="FooterLink" style="padding:0;background-color:transparent;" href="/feed.rss" title="Suscribirse al canal de noticias de Espectro Autista">
+<img src="images/rss.gif" class="RSSIcon" width="29" height="16" alt="suscribirse"/>
+</a>
+</li>
+<li>
+<a target="_blank" class="FooterLink" style="padding:0;background-color:transparent;" href="/feed.atom" title="Suscribirse al canal de noticias de Espectro Autista">
+<img src="images/atom.gif" class="RSSIcon" width="32" height="16" alt="suscribirse"/>
+</a>
+</li>
+<li>
+<a target="_blank" class="FooterLink" href="http://spreadsheets.google.com/viewform?key=p84EkxTOTjQmREslsbQsELw" title="Denos su opinión sobre esta web">opinar</a>
+</li>
+<li>
+<a target="_blank" class="FooterLink" href="http://groups.google.com/group/foro-tea?hl=es" title="Foro sobre Trastornos del Espectro Autista">foro</a>
+</li>
+<li>
+<a target="_blank" class="FooterLink" href="mailto:webmaster@espectroautista.info" title="==&gt; Requiere programa de correo">contacto</a>
+</li>
+</ul>
+<a class="FooterGoTop" href="#" title="Ir al inicio de la página">ir arriba</a>
+</div>
+</div>
+</div>
+</body>
+</html>

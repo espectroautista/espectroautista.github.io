@@ -1,0 +1,25 @@
+@charset "UTF-8";
+.hiddenStructure{display:block;background:transparent;background-image:none;border:none;height:0.1em;overflow:hidden;padding:0;margin:-0.1em 0 0 -0.1em;width:1px;}
+div#TestText{}form#Test{margin:0;padding:0;line-height:normal;}
+form#Test table{width:100%;}
+table#TestQuestions{border:none;margin:1px 0 1px 0;}
+table#TestQuestions th,table#TestQuestions td{padding:2px;border:2px solid #F8F8FF;}
+div#TestButtons{background-color:#C0C0C0;margin-bottom:2px;padding:4px 0;text-align:center;}
+div#TestButtons p{margin:0 3em 1ex 3em;font:bold 80%/1 "Trebuchet MS",sans-serif;text-align:center;}
+div#TestButtons input{margin:0 10px;width:7em;font:bold 90% Verdana,sans-serif;}
+div#TestTotal{display:none;margin:2px 0;border:1px solid #000000;color:#000000;background-color:#E6E6FA;}
+div#TestTotal td{padding:0;border:none;}
+div#TestTotal p{margin:4px;font-family:"Trebuchet MS",sans-serif;font-weight:bold;text-align:center;text-align:left;}
+td.TestScale{text-align:right;}
+address#TestFooter{margin-top:2px;font-style:normal;font-weight:normal;font-size:85%;text-align:center;}
+th.Range{width:6em;}
+.Arrow{outline-style:none;font-family:Arial,"DejaVu Sans","Droid Sans Fallback",OpenSymbol,sans-serif;color:#191970 !important;text-decoration:none !important;}
+table#TestQuestions{margin:0;padding:0;background-color:transparent;}
+li.OddQuestion,li.EvenQuestion{margin:0 0 0.5em 0;padding:0.5em;border:thin solid #000000;}
+li.OddQuestion{background-color:#DCDCDC;}
+li.EvenQuestion{background-color:#F5F5DC;}
+li.QuestionOption{text-indent:-1.7em;}
+strong.Question{float:left;width:90%;}
+div.NavigationArrows{float:right;width:3em;font-family:Arial,"DejaVu Sans","Droid Sans Fallback",OpenSymbol,sans-serif;text-align:center;}
+p.instrucciones{font-size:90%;font-style:italic;}
+ol.Choices{list-style-type:none;}

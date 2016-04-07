@@ -1,0 +1,84 @@
+@charset "UTF-8";
+.hiddenStructure{display:block;background:transparent;background-image:none;border:none;height:0.1em;overflow:hidden;padding:0;margin:-0.1em 0 0 -0.1em;width:1px;}
+html,body,div,span,object,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{background:transparent;border:0;font-size:100%;margin:0;outline:0;padding:0;vertical-align:baseline;}
+body{line-height:normal;}ol{list-style:decimal;}
+ul{list-style:disc;}
+blockquote{quotes:none;}
+blockquote:before,blockquote:after{content:normal;}
+ins{text-decoration:underline;}
+del{text-decoration:line-through;}
+table{border-collapse:collapse;border-spacing:0;}
+.clearfix:after{display:block;content:" ";clear:both;height:0;font-size:0;visibility:hidden;}
+.clearfix{display:inline-block;}* html .clearfix{height:1%;}
+.clearfix{display:block;}
+html{overflow-y:scroll;}
+html,body,div#Container{height:100%;}
+div#Container{position:relative;margin:0 auto;height:auto !important;min-height:100%;max-width:68.75em;min-width:700px;}
+div#Header{position:relative;}
+div#Body{padding-bottom:4em;}
+div#Content{float:right;margin:0 1%;width:75%;}
+div#Content>div.oi{}
+div#Sidebar{float:left;margin-left:1%;width:22%;}
+div#Sidebar>div.oi{margin-top:5px;}
+div#Footer{position:absolute;bottom:0;margin-bottom:8px;width:100%;}
+div#Footer>div.oi{margin:0 1%;}
+body{background-color:#F8F8FF;}
+div#Container{border-left:1px solid #D3D3D3;border-right:1px solid #D3D3D3;color:#000000;background-color:#F8F8FF;}
+div#Header{}
+a#Logo{display:block;float:left;margin:0 1%;width:22%;color:#F8F8FF;}
+a#Logo img{width:100%;height:auto;}
+div#Title{padding-top:1em;color:#191970;font:bold 350% "URW Gothic L","Century Gothic",sans-serif;}
+form#Search{position:absolute;top:0.5em;right:1em;font-family:Verdana,sans-serif;text-align:right;}
+a.Search{text-decoration:none;padding:0 0.25em;}
+a.Search,a.Search:link,a.Search:visited{color:#4169E1;background-color:#F8F8FF;}
+a.Search:hover{color:#F8F8FF;text-decoration:none;background-color:#4169E1;}
+html#ayuda a.ayuda,html#etiquetas a.etiquetas,html#mapa a.mapa{font-weight:bold;}
+form#Search>ul{list-style-type:none;margin:0 0 1em 0;padding:0;font-size:70%;}
+form#Search>ul>li{display:inline;margin:0 0 0 1em;padding:0;}
+form#Search>div>input[type=submit]{width:60px;font:bold 10px Verdana,sans-serif;cursor:pointer;}
+div#PathBar{clear:both;border-top:1px solid #191970;border-bottom:1px solid #191970;padding:0.1em 0;background-color:#D3D3D3;}
+div#Breadcrumb{margin:0 1%;font:70%/1.2 Tahoma,Verdana,sans-serif;text-align:left;text-transform:lowercase;}
+a.Breadcrumb{text-decoration:none;padding:0 0.25em;}
+a.Breadcrumb,a.Breadcrumb:link,a.Breadcrumb:visited{color:#4169E1;background-color:#D3D3D3;}
+a.Breadcrumb:hover{color:#D3D3D3;text-decoration:none;background-color:#4169E1;}
+span#BreadcrumbTitle{margin-right:0.25em;color:#000000;}
+span.BreadcrumbArrow{margin:0 0.25em;font-weight:bold;}
+strong.BreadcrumbHere{color:#191970;font-weight:normal;}
+strong.BreadcrumbHere.Letter{text-transform:uppercase;}
+div#Content{font:90% Georgia,"Bitstream Charter","Droid Serif",serif;}
+div#Sidebar{font:85% Verdana,sans-serif;}
+div#Sidebar>div.oi{}
+div.Panel{margin:0 auto 1em auto;padding:0.5em;border:2px outset #191970;background-color:#E6E6FA;font-size:80%;}
+div.PanelTitle{margin-bottom:0.5em;border:1px solid #191970;color:#191970;background-color:#D3D3D3;font-weight:bold;font-size:120%;text-align:center;}
+div.TreeNav{padding:0 1em;}
+a.TreeNav{text-decoration:none;display:block;font-size:90%;margin-top:0;text-align:center;margin-bottom:0.5em;word-spacing:normal;}
+a.TreeNav,a.TreeNav:link,a.TreeNav:visited{color:#191970;background-color:inherit;}
+a.TreeNav:hover{text-decoration:underline;}
+a.SiblingPreceding,span.SiblingPreceding{float:left;}
+a.SiblingFollowing,span.SiblingFollowing{float:right;}
+span.SiblingPreceding,span.SiblingFollowing{font-size:90%;margin-top:0;}
+ul.PanelMenu,ul.PanelMenu ul{clear:both;margin:0;padding-left:1.5em;text-transform:lowercase;}
+ul.PanelMenu>li{margin:0;padding:0.5ex 0;line-height:normal;}
+li.PanelMenuNode{font-weight:bold;list-style-type:square;}
+li.PanelMenuLeave,li.PanelMenuCurrent{list-style-type:disc;}
+a.PanelMenu{text-decoration:none;display:block;}
+a.PanelMenu,a.PanelMenu:link,a.PanelMenu:visited{color:#4169E1;background-color:inherit;}
+a.PanelMenu:hover{text-decoration:underline;}
+li.PanelMenuNode:hover,li.PanelMenuLeave:hover{background-color:#F8F8FF;}
+ul#PanelTags a{font-family:Tahoma,Verdana,sans-serif;font-weight:normal;}
+ul#TopMenu{list-style-type:none;margin:1px 0 0 0;padding:0;height:16px;font:75%/normal Tahoma,Verdana,sans-serif;text-align:left;text-transform:lowercase;}
+ul#TopMenu>li{display:inline;margin:0 8px 0 0;padding:0;}
+a.TopMenu{text-decoration:none;padding:0 0.25em;margin:0;}
+a.TopMenu,a.TopMenu:link,a.TopMenu:visited{color:#4169E1;background-color:#F8F8FF;}
+a.TopMenu:hover{color:#F8F8FF;text-decoration:none;background-color:#4169E1;}
+div#PrinterButtons{display:none;}div#Footer{border-top:1px solid #191970;border-bottom:1px solid #191970;color:#191970;background-color:#D3D3D3;}
+div#Footer>div.oi{padding:2px;font:70% Verdana,sans-serif;}
+ul#FooterLinks{float:left;list-style-type:none;margin:0;padding:0;line-height:1;}
+ul#FooterLinks>li{display:inline;margin:0 1em 0 0;padding:0;}
+a.FooterLink{text-decoration:none;padding:0 0.25em;}
+a.FooterLink,a.FooterLink:link,a.FooterLink:visited{color:#4169E1;background-color:#D3D3D3;}
+a.FooterLink:hover{color:#D3D3D3;text-decoration:none;background-color:#4169E1;}
+img.RSSIcon{vertical-align:text-top;}
+a.FooterGoTop{text-decoration:none;padding:0 0.25em;float:right;}
+a.FooterGoTop,a.FooterGoTop:link,a.FooterGoTop:visited{color:#4169E1;background-color:#D3D3D3;}
+a.FooterGoTop:hover{color:#D3D3D3;text-decoration:none;background-color:#4169E1;}
