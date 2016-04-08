@@ -3,7 +3,7 @@
   <channel><language>es</language><atom:link href="http://EspectroAutista.Info/feed.rss" rel="self" type="application/rss+xml"/><description/><image><url>http://EspectroAutista.Info/images/logo-espectro-autista.png</url><title>EspectroAutista.Info</title><link>http://EspectroAutista.Info/blog</link></image><generator>XSLT stylesheet by JJOR + Atom 1.0 EXSLT Transform v1.1 (http://atom.geekhood.net/)</generator>
   
   <title><![CDATA[EspectroAutista.Info]]></title>
-  <pubDate>Thu, 07 Apr 2016 16:46:11 GMT</pubDate>
+  <pubDate>Fri, 08 Apr 2016 19:40:20 GMT</pubDate>
   <!-- source: http://EspectroAutista.Info/feed.atom -->
   <link>http://EspectroAutista.Info/blog</link>
   
@@ -12,6 +12,15 @@
   
   <item><description>
 	&lt;div lang="es"&gt;
+        
+	&lt;p&gt;La edición y mantenimiento de 
+	&lt;strong class="title"&gt;EspectroAutista.Info&lt;/strong&gt;
+  se ha descontinuado. Eso significa que ya no se publicarán nuevas noticias, nuevas páginas… Pero eso no quiere decir que 
+	&lt;strong class="title"&gt;EspectroAutista.Info&lt;/strong&gt;
+ vaya a desaparecer, ni mucho menos. Para quien piense que algún día pudiese quedarse sin 
+	&lt;strong class="title"&gt;EspectroAutista.Info&lt;/strong&gt;
+ le recomendamos que se baje una copia a su ordenador:&lt;/p&gt;
+
         
 	&lt;ul&gt;
           
@@ -24,6 +33,31 @@
  para su consulta y uso sin acceso a Internet.&lt;/li&gt;
 
         &lt;/ul&gt;
+
+        
+	&lt;p&gt;Para quien desee continuar la labor realizada por 
+	&lt;strong class="title"&gt;EspectroAutista.Info&lt;/strong&gt;
+  los últimos ocho años, y disponga de los conocimientos de programación suficientes, está disponible un repositorio de GitHub con todo lo necesario para esa tarea:&lt;/p&gt;
+
+        
+	&lt;ul&gt;
+          
+	&lt;li&gt;
+	&lt;a target="_blank" href="http://github.com/espectroautista/espectroautista"&gt;Repositorio de GitHub&lt;/a&gt;
+
+	&lt;span class="External"&gt; (http://github.com/espectroautista/espectroautista)&lt;/span&gt;
+ con todo el software y datos que permiten construir 
+	&lt;strong class="title"&gt;EspectroAutista.Info&lt;/strong&gt;
+ .&lt;/li&gt;
+
+        &lt;/ul&gt;
+
+        
+	&lt;p&gt;Esta solución es la que mejor puede dar continuidad a 
+	&lt;strong class="title"&gt;EspectroAutista.Info&lt;/strong&gt;
+, más allá de la longevidad de su editor actual. ¡Larga vida a 
+	&lt;strong class="title"&gt;EspectroAutista.Info&lt;/strong&gt;
+!&lt;/p&gt;
 
       &lt;/div&gt;
 </description>
@@ -201,7 +235,7 @@ esta situación.  &lt;/p&gt;
         
 	&lt;blockquote&gt;
           
-	&lt;h3 id="idm139734417581616"&gt;Antecedentes&lt;/h3&gt;
+	&lt;h3 id="idm139840980564064"&gt;Antecedentes&lt;/h3&gt;
 
           
 	&lt;p&gt;En los últimos cuarenta años la prevalencia de los trastornos del espectro del autismo (TEA) se ha incrementado significativamente, situándose en la actualidad en 1 caso por cada 100 nacimientos (Autismo Europa, 2012), lo que cifraría en más de 450.000 el número de personas con TEA en España. No obstante, el número de personas afectadas por este tipo de trastorno sería superior al millón si se considera el profundo impacto que produce en el sistema familiar en el que se desarrolla la persona, repercutiendo por lo tanto en cada uno de sus miembros.  &lt;/p&gt;
